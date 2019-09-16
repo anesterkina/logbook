@@ -48,6 +48,7 @@
         <module>logbook-spring-boot-autoconfigure</module>
         <module>logbook-spring-boot-starter</module>
         <module>logbook-test</module>
+        <module>logbook-webflux</module>
     </modules>
     <scm>
         <url>https://github.com/zalando/logbook</url>
@@ -646,11 +647,11 @@
             </modules>
         </profile>
         <profile>
-            <id>spring4</id>
+            <id>spring5</id>
             <properties>
-                <spring.version>4.3.24.RELEASE</spring.version>
-                <spring-boot.version>1.5.21.RELEASE</spring-boot.version>
-                <spring-security.version>4.2.13.RELEASE</spring-security.version>
+                <spring.version>5.1.9.RELEASE</spring.version>
+                <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
+                <spring-security.version>5.1.6.RELEASE</spring-security.version>
             </properties>
         </profile>
         <profile>
